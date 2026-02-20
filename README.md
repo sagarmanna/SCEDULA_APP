@@ -62,7 +62,3 @@ https://github.com/sagarmanna/SCEDULA_APP
 - Tablet
 - Desktop
 - Clean hospital brand style UI
-
----
-
-## 📂 Project Structure
