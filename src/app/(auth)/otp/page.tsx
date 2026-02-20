@@ -3,7 +3,13 @@ import OtpClient from "./OtpClient";
 
 export default function OtpPage() {
   return (
-    <Suspense fallback={<div className="bg-white border rounded-2xl shadow-sm p-6">Loading...</div>}>
+    <Suspense
+      fallback={
+        <div className="bg-white border rounded-2xl shadow-sm p-6">
+          Loading...
+        </div>
+      }
+    >
       <OtpClient />
     </Suspense>
   );
